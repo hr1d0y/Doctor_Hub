@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1024099193587",
+    "project_id": "doctor-hub-fd821",
+    "storage_bucket": "doctor-hub-fd821.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1024099193587:android:6aa75bf101128e3eae5d86",
+        "android_client_info": {
+          "package_name": "com.example.login_ui"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1024099193587-0fsh2va84oaup76qt4bd0csmb8bb8h7n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCIWA6d5KhLvv5oU1Nbh4m_Z030FE0E3u4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1024099193587-0fsh2va84oaup76qt4bd0csmb8bb8h7n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
