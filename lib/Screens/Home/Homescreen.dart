@@ -27,7 +27,7 @@ class HomeScreen extends StatelessWidget {
               child: Text(
                 'Appointment',
                 style: TextStyle(
-                  color: Colors.black,
+                  color: Colors.white,
                   fontSize: 15.0,
                   fontWeight: FontWeight.bold,
                 ),
@@ -85,11 +85,63 @@ class HomeScreen extends StatelessWidget {
                 ),
               ),
             )),
+            // Container(
+            //     child: GestureDetector(
+            //   // onTap: () {},
+            //   onTap: () => Navigator.push(context,
+            //       MaterialPageRoute(builder: (_) => AnimatedBottomBar())),
+            //   child: Container(
+            //     margin: EdgeInsets.only(
+            //         top: 5.0, bottom: 5.0, right: 10.0, left: 10.0),
+            //     padding: EdgeInsets.symmetric(horizontal: 20.0, vertical: 2.0),
+            //     decoration: BoxDecoration(
+            //       boxShadow: [
+            //         BoxShadow(
+            //           color: Colors.blue.shade800,
+            //           spreadRadius: 0.5,
+            //           blurRadius: 1,
+            //           offset: Offset(0, 1), // changes position of shadow
+            //         ),
+            //       ],
+            //     ),
+            //     child: Row(
+            //       mainAxisAlignment: MainAxisAlignment.spaceBetween,
+            //       children: <Widget>[
+            //         Row(
+            //           children: <Widget>[
+            //             IconButton(
+            //                 icon: Icon(Icons.assignment),
+            //                 iconSize: 30.0,
+            //                 color: Colors.white,
+            //                 onPressed: () {}),
+            //             SizedBox(
+            //               width: 10.0,
+            //             ),
+            //             Column(
+            //               crossAxisAlignment: CrossAxisAlignment.start,
+            //               children: <Widget>[
+            //                 Text(
+            //                   'Apointment',
+            //                   style: TextStyle(
+            //                     color: Colors.white,
+            //                     fontSize: 15,
+            //                     fontWeight: FontWeight.bold,
+            //                   ),
+            //                 ),
+            //                 SizedBox(height: 5.0),
+            //               ],
+            //             ),
+            //           ],
+            //         ),
+            //       ],
+            //     ),
+            //   ),
+            // )),
             Container(
               child: Text(
                 'Covid 19 statistics',
                 style: TextStyle(
-                  color: Colors.black,
+                  color: Colors.white,
                   fontSize: 15.0,
                   fontWeight: FontWeight.bold,
                 ),
@@ -151,7 +203,7 @@ class HomeScreen extends StatelessWidget {
               child: Text(
                 'Emergency call numbers',
                 style: TextStyle(
-                  color: Colors.black,
+                  color: Colors.white,
                   fontSize: 15.0,
                   fontWeight: FontWeight.bold,
                 ),

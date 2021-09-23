@@ -1,7 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:login_ui/Screens/Home/home.dart';
+
+import 'package:login_ui/Screens/settings/settings_form.dart';
 
 class AnimatedBottomBar extends StatefulWidget {
-  static final String path = "lib/src/pages/animations/anim4.dart";
+  static final String path = "lib/Screens/animation/AnimatedBottomBar.dart";
   @override
   _AnimatedBottomBarState createState() => _AnimatedBottomBarState();
 }
@@ -18,38 +21,36 @@ class _AnimatedBottomBarState extends State<AnimatedBottomBar> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: Text("Animated Bottom Navigation Bar"),
-      ),
+      // appBar: AppBar(
+      //   title: Text("Animated Bottom Navigation Bar"),
+      // ),
       backgroundColor: Colors.grey.shade300,
       body: getPage(_currentPage),
       bottomNavigationBar: AnimatedBottomNav(
-          currentIndex: _currentPage,
-          onChange: (index) {
-            setState(() {
+        currentIndex: _currentPage,
+        onChange: (index) {
+          setState(
+            () {
               _currentPage = index;
-            });
-          }),
+            },
+          );
+        },
+      ),
     );
   }
 
   getPage(int page) {
     switch (page) {
       case 0:
-        return Center(
-            child: Container(
-          child: Text("Home Page"),
-        ));
+        return Home();
       case 1:
-        return Center(
-            child: Container(
-          child: Text("Profile Page"),
-        ));
+        return SettingsFormPatient();
       case 2:
         return Center(
-            child: Container(
-          child: Text("Menu Page"),
-        ));
+          child: Container(
+            child: Text("Menu Page"),
+          ),
+        );
     }
   }
 }

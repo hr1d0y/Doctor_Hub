@@ -1,4 +1,8 @@
+import 'dart:ffi';
+
 import 'package:flutter/material.dart';
+import 'package:login_ui/Screens/Home/home.dart';
+import 'package:login_ui/Screens/animation/AnimatedBottomBar.dart';
 
 import 'package:login_ui/Screens/wrapper.dart';
 import 'package:firebase_core/firebase_core.dart';
@@ -18,6 +22,9 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return StreamProvider<Userid>.value(
       value: AuthService().user,
+      // initialData: Userid(uid: ''),
+      catchError: (_, __) => null,
+
       child: MaterialApp(
         title: 'Doctor Hub',
         debugShowCheckedModeBanner: false,

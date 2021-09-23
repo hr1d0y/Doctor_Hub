@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Hridoy\\Desktop\\Doctor Hub\\Doctor Hub\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-bn\\values-bn.xml",
+            "outputFile": "C:\\Users\\Hridoy\\Desktop\\Doctor Hub\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-bn\\values-bn.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Hridoy\\.gradle\\caches\\transforms-2\\files-2.1\\ae55f68e88248cff7e0e2a9eaabc7928\\jetified-play-services-basement-17.0.0\\res\\values-bn\\values.xml",

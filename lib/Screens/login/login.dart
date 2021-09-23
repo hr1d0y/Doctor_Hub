@@ -140,8 +140,8 @@ class _LoginScreenState extends State<LoginScreen> {
                         onTap: () async {
                           if (_formKey.currentState.validate()) {
                             setState(() => loading = true);
-                            dynamic result = await _auth
-                                .signInWithEmailAndPassword(email, password);
+                            dynamic result =
+                                await _auth.patientLogin(email, password);
                             if (result == null) {
                               setState(() {
                                 error =

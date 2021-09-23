@@ -48,7 +48,7 @@ class _SliderPageState extends State<SliderPage> {
         height: 310,
         width: MediaQuery.of(context).size.width,
         child: Padding(
-          padding: EdgeInsets.only(top: 10.0),
+          padding: EdgeInsets.only(top: 20.0),
           child: Swiper(
             itemBuilder: (BuildContext context, int index) {
               return InkWell(
@@ -83,7 +83,7 @@ class _SliderPageState extends State<SliderPage> {
                       ),
                     ),
                     Padding(
-                      padding: EdgeInsets.fromLTRB(50.0, 300.0, 0.0, 0.0),
+                      padding: EdgeInsets.fromLTRB(14.5, 215.0, 0.0, 0.0),
                       child: Container(
                         height: 60.0,
                         width: 300.0,

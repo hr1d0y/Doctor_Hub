@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:login_ui/Screens/login/login.dart';
+import 'package:login_ui/Screens/login/loginform.dart';
 import 'package:login_ui/Screens/register/doctor_reg.dart';
 import 'package:login_ui/Screens/register/patien_reg.dart';
 //import 'package:login_ui/components/background.dart';
@@ -109,7 +110,7 @@ class RegisterScreen extends StatelessWidget {
                 child: GestureDetector(
                   onTap: () => {
                     Navigator.push(context,
-                        MaterialPageRoute(builder: (context) => LoginScreen()))
+                        MaterialPageRoute(builder: (context) => Loginform()))
                   },
                   child: Text(
                     "Get back to login page",

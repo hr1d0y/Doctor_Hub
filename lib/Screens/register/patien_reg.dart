@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:login_ui/Screens/animation/AnimatedBottomBar.dart';
 import 'package:login_ui/Screens/login/login.dart';
 import 'package:login_ui/Screens/register/register.dart';
 import 'package:login_ui/services/auth.dart';
@@ -126,7 +127,6 @@ class _PatientRegister extends State<PatientRegister> {
                               validator: (val) => val.length < 6
                                   ? 'Enter a password 6+ chars long'
                                   : null,
-                              obscureText: true,
                               onChanged: (val) {
                                 setState(() => password = val);
                               },
@@ -150,8 +150,10 @@ class _PatientRegister extends State<PatientRegister> {
                         onTap: () async {
                           if (_formKey.currentState.validate()) {
                             setState(() => loading = true);
-                            dynamic result = await _auth
-                                .registerWithEmailAndPassword(email, password);
+                            dynamic result =
+                                await _auth.patientRegisterWithEmailAndPassword(
+                                    email, password);
+                            print(result);
                             if (result == null) {
                               setState(
                                   () => error = 'Please supply a valid email');
@@ -167,7 +169,7 @@ class _PatientRegister extends State<PatientRegister> {
                                   context,
                                   MaterialPageRoute(
                                       builder: (BuildContext context) =>
-                                          Home()));
+                                          AnimatedBottomBar()));
                             }
                           }
                         },

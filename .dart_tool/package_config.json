@@ -2,6 +2,12 @@
   "configVersion": 2,
   "packages": [
     {
+      "name": "agora_rtc_engine",
+      "rootUri": "file:///C:/src/flutter/.pub-cache/hosted/pub.dartlang.org/agora_rtc_engine-4.0.7",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "async",
       "rootUri": "file:///C:/src/flutter/.pub-cache/hosted/pub.dartlang.org/async-2.6.1",
       "packageUri": "lib/",
@@ -242,6 +248,12 @@
       "languageVersion": "2.12"
     },
     {
+      "name": "json_annotation",
+      "rootUri": "file:///C:/src/flutter/.pub-cache/hosted/pub.dartlang.org/json_annotation-4.0.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "matcher",
       "rootUri": "file:///C:/src/flutter/.pub-cache/hosted/pub.dartlang.org/matcher-0.12.10",
       "packageUri": "lib/",
@@ -300,6 +312,18 @@
       "rootUri": "file:///C:/src/flutter/.pub-cache/hosted/pub.dartlang.org/pedantic-1.11.0",
       "packageUri": "lib/",
       "languageVersion": "2.12"
+    },
+    {
+      "name": "permission_handler",
+      "rootUri": "file:///C:/src/flutter/.pub-cache/hosted/pub.dartlang.org/permission_handler-5.1.0+2",
+      "packageUri": "lib/",
+      "languageVersion": "2.7"
+    },
+    {
+      "name": "permission_handler_platform_interface",
+      "rootUri": "file:///C:/src/flutter/.pub-cache/hosted/pub.dartlang.org/permission_handler_platform_interface-2.0.2",
+      "packageUri": "lib/",
+      "languageVersion": "2.6"
     },
     {
       "name": "petitparser",
@@ -500,7 +524,7 @@
       "languageVersion": "2.7"
     }
   ],
-  "generated": "2021-06-10T22:50:52.635092Z",
+  "generated": "2021-09-19T13:40:01.911717Z",
   "generator": "pub",
-  "generatorVersion": "2.13.1"
+  "generatorVersion": "2.13.3"
 }

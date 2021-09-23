@@ -28,6 +28,10 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.0
+  shared_preferences: ^0.5.12+4
+  agora_rtc_engine:
+  permission_handler:
+  
 
 dev_dependencies:
   flutter_test:
@@ -49,10 +53,10 @@ dev_dependencies:
   fl_chart: ^0.9.3
   url_launcher: ^5.1.2
   get_it:
-  shared_preferences:
   dynamic_theme:
   pie_chart:
   flutter_spinkit: "^4.1.2"
+  
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
 
